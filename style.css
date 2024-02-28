@@ -35,6 +35,8 @@
 
 .ms-main{
     width: 100%;
+    height: calc(100vh - 70px);
+    overflow-y: auto;
 }
 
 .ms-top-main{
@@ -53,4 +55,60 @@
     padding: 12px;
     border: 1px solid white;
     border-radius: 5px;
+}
+
+.ms-main-center{
+    padding: 12px;
+    overflow-y: auto;
+}
+
+.ms-card{
+    border: 1px solid #D2D2D2;
+    border-radius: 10px;
+}
+
+.ms-card-head{
+    background-color: #F7F7F7;
+    padding: 12px 12px 20px 12px;
+    border-bottom: 1px solid #D2D2D2;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.ms-table{
+    width: 100%;
+    padding: 20px 12px 20px 12px;
+    
+}
+
+.ms-font-color-grey{
+    color: #212529;
+}
+
+.ms-tag-img{
+    width: 32px;
+    border-radius: 100%;
+}
+
+.ms-width-table{
+    width: 30%;
+}
+
+.ms-table-tag{
+    font-size: small;
+    padding: 3px 6px;
+    border-radius: 3px;
+    margin-right: -15px;
+}
+
+.fa-pen, .fa-trash{
+    padding: 5px;
+    color: #212529DD;
+    border: 1px solid #212529CC;
+    border-radius: 5px;
+}
+
+.ms-danger{
+    margin-right: -25px;
+    margin-left: -9px;
 }

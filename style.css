@@ -33,7 +33,24 @@
     padding: 25px;
 }
 
+.ms-main{
+    width: 100%;
+}
+
 .ms-top-main{
     background-color: #1B72E8;
-    width: 100%;
+}
+
+.ms-tag{
+    font-size: 12px;
+    padding: 2px 6px;
+    background-color: #165BBA;
+    border-radius: 20px;
+}
+
+.ms-plus{
+    line-height: 12px;
+    padding: 12px;
+    border: 1px solid white;
+    border-radius: 5px;
 }
